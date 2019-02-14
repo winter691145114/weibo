@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Spc@home');
+Route::get('about','Spc@about');
+Route::get('help','Spc@help');
